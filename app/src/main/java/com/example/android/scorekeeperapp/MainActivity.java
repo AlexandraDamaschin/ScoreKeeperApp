@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void addFoulsTeamA(View view) {
         team_a_fouls += 1;
-        displayForTeamA(team_a_fouls);
+        displayFoulsTeamA(team_a_fouls);
     }
 
     //    team B score
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void addFoulsTeamB(View view) {
         team_b_fouls += 1;
-        displayForTeamB(team_b_fouls);
+        displayFoulsTeamB(team_b_fouls);
     }
 
     public void resetScore(View view) {
