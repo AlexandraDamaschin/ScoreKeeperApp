@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(team_a_score);
         displayForTeamB(team_b_score);
         displayFoulsTeamA(team_a_fouls);
+        displayFoulsTeamB(team_b_fouls);
     }
 
     //team A score
@@ -62,6 +63,12 @@ public class MainActivity extends AppCompatActivity {
         scoreViewB.setText(String.valueOf(score));
     }
 
+    //team B fouls
+    public void displayFoulsTeamB(int foul) {
+        TextView foulViewB = findViewById(R.id.team_b_fouls);
+        foulViewB.setText(String.valueOf(foul));
+    }
+
     public void increment3PointsB(View view) {
         team_b_score += 3;
         displayForTeamB(team_b_score);
@@ -77,6 +84,11 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamB(team_b_score);
     }
 
+    public void addFoulsTeamB(View view) {
+        team_b_fouls += 1;
+        displayForTeamB(team_b_fouls);
+    }
+
     public void resetScore(View view) {
         team_a_score = 0;
         team_b_score = 0;
@@ -84,5 +96,3 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamB(team_b_score);
     }
 }
-//maybe git is working?
-// second
