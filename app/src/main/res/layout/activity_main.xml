@@ -111,15 +111,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addFouls"
+                android:onClick="addFoulsTeamA"
                 android:padding="8dp"
-                android:text="Add foul!" />
+                android:text="Add foul" />
         </LinearLayout>
 
         <!--separator line-->
         <View
             android:layout_width="2dp"
-            android:layout_height="300dp"
+            android:layout_height="400dp"
             android:background="@android:color/darker_gray" />
         <!--team B display-->
 
@@ -225,9 +225,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addFouls"
+                android:onClick="addFoulTeamB"
                 android:padding="8dp"
-                android:text="Add foul!" />
+                android:text="Add foul" />
         </LinearLayout>
 
     </LinearLayout>
