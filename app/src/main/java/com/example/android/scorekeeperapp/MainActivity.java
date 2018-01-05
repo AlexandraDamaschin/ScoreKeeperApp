@@ -7,6 +7,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
+//    football with score and fouls
     int team_a_score = 0;
     int team_b_score = 0;
 
