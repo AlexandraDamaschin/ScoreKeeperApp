@@ -2,8 +2,8 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light">
-        <item name="colorPrimary">#923440</item>
-        <item name="colorButtonNormal">#923456</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorButtonNormal">@color/colorButton</item>
     </style>
 
 </resources>

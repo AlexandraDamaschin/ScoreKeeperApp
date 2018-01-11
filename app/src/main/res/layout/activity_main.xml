@@ -1,5 +1,4 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -29,7 +28,7 @@
                     android:gravity="center"
                     android:padding="16dp"
                     android:text="Team A"
-                    android:textColor="#616161"
+                    android:textColor="@color/colorGray"
                     android:textSize="16sp" />
 
                 <LinearLayout
@@ -44,7 +43,7 @@
                         android:gravity="center"
                         android:padding="8dp"
                         android:text="Score"
-                        android:textColor="#000000"
+                        android:textColor="@color/textColor"
                         android:textSize="16sp" />
 
                     <TextView
@@ -55,7 +54,7 @@
                         android:gravity="center"
                         android:padding="8dp"
                         android:text="0"
-                        android:textColor="#000000"
+                        android:textColor="@color/textColor"
                         android:textSize="20sp" />
                 </LinearLayout>
 
@@ -71,7 +70,7 @@
                         android:gravity="center"
                         android:padding="8dp"
                         android:text="Fouls"
-                        android:textColor="#000000"
+                        android:textColor="@color/textColor"
                         android:textSize="16sp" />
 
                     <TextView
@@ -82,7 +81,7 @@
                         android:gravity="center"
                         android:padding="8dp"
                         android:text="0"
-                        android:textColor="#000000"
+                        android:textColor="@color/textColor"
                         android:textSize="20sp" />
                 </LinearLayout>
 
@@ -143,7 +142,7 @@
                     android:gravity="center"
                     android:padding="16dp"
                     android:text="Team B"
-                    android:textColor="#616161"
+                    android:textColor="@color/colorGray"
                     android:textSize="16sp" />
 
                 <LinearLayout
@@ -158,7 +157,7 @@
                         android:gravity="center"
                         android:padding="8dp"
                         android:text="Score"
-                        android:textColor="#000000"
+                        android:textColor="@color/textColor"
                         android:textSize="16sp" />
 
                     <TextView
@@ -169,7 +168,7 @@
                         android:gravity="center"
                         android:padding="8dp"
                         android:text="0"
-                        android:textColor="#000000"
+                        android:textColor="@color/textColor"
                         android:textSize="20sp" />
                 </LinearLayout>
 
@@ -185,7 +184,7 @@
                         android:gravity="center"
                         android:padding="8dp"
                         android:text="Fouls"
-                        android:textColor="#000000"
+                        android:textColor="@color/textColor"
                         android:textSize="16sp" />
 
                     <TextView
@@ -196,7 +195,7 @@
                         android:gravity="center"
                         android:padding="8dp"
                         android:text="0"
-                        android:textColor="#000000"
+                        android:textColor="@color/textColor"
                         android:textSize="20sp" />
                 </LinearLayout>
 
