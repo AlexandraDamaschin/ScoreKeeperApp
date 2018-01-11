@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="scrollView_padding">10dp</dimen>
+    <dimen name="teamName_padding">16dp</dimen>
+    <dimen name="teamName_textSize">16sp</dimen>
+    <dimen name="score_padding">8dp</dimen>
+    <dimen name="score_textSize">16sp</dimen>
+    <dimen name="initialScore_padding">8dp</dimen>
+    <dimen name="initialScore_textSize">20sp</dimen>
+    <dimen name="fouls_padding">8dp</dimen>
+    <dimen name="fouls_textSize">16sp</dimen>
+    <dimen name="initialFouls_padding">8dp</dimen>
+    <dimen name="initialFouls_textSize">20sp</dimen>
+    <dimen name="button_marginLeft">24dp</dimen>
+    <dimen name="button_marginRight">24dp</dimen>
+    <dimen name="button_padding">8dp</dimen>
+</resources>
