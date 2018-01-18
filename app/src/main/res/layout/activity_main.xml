@@ -251,6 +251,4 @@
             android:text="Reset" />
 
     </ScrollView>
-
-
 </RelativeLayout>
